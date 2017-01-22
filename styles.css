@@ -1,6 +1,121 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+header.page-header {
+      font-family:'Georgia', sans-serif;
+      color: #003322;
+      padding: 2.5rem;
+      font-size: medium;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      margin-top: 5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      border-radius: 0.5rem;
+      background: url("images/hiking-the-sand-dunes.jpg") top right;
 }
+
+aside.more-info {
+    
+      font-family:'Georgia', sans-serif;
+      color: #003322;
+      /*background-color: rgba(220, 241, 242, 0.2);  --other background  color option*/
+      /*border: 0.2rem solid rgb(128, 0, 0);         --other border option*/
+      float: right;
+      margin-top: 20rem;
+      margin-right: 3rem;
+      padding-top: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 4rem;
+      border: 0.2rem solid rgb(113, 78, 49);
+      border-radius: 1rem;
+      background: url("images/hiking-the-sand-dunes.jpg") top left;
+}
+
+aside.more-info img {
+      
+      color: #003322;
+      float: right;
+      height: 275px;
+      width: auto;
+      border: solid 0.1rem rgb(113, 78, 49);
+      border-radius: 1rem;
+  
+}
+
+.poem {
+      
+      font-family:'Tahoma', sans-serif;
+      color: #003322;
+      list-style-type: none;
+      line-height: 1.6;
+      margin-top: 1rem;
+      margin-right: 55rem;
+      margin-left: 3rem;
+      padding: 2rem;
+      padding-left: 3rem;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      background-color: #DFD297;
+ 
+}
+
+.poem li {
+      
+      font-size: 105%;
+      line-height: 1.8;
+}
+
+p.citation {
+  
+      text-align: left;
+      margin-left: 3rem;
+      font-weight: bold;
+      color: #003322;
+  
+}
+body {
+      background-color: #63AA9C;
+      color: #003322;
+      font-family:'Cabin', sans-serif;
+      border-radius: 0.5rem;
+      
+
+
+
+
+}
+
+footer.page-footer {
+    
+    font-family:'Tahoma', sans-serif;
+    color: #003322;
+    list-style-type: none;
+    line-height: 1.6;
+    border: 0.2rem solid rgb(113, 78, 49);
+    background-color: rgba(220, 241, 242, 0.2);
+    margin-left: 3rem;
+    margin-right: 35rem;
+    border-radius: 1rem;
+     background: url("images/hiking-the-sand-dunes.jpg") top right;
+}
+
+
+.page-footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: .5rem;
+    margin-left: .5rem;
+}
+        
+.page-credits {
+    text-align: center;
+    padding-top: 1rem;
+}        
+        
+        
+        
+        
+        
+        
